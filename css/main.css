@@ -1,0 +1,321 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+/*--Add by me--*/	
+	min-height: 100%;
+	font-family: 'PTSansRegular';
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*--Add by me--*/	
+.wrapper {	
+	margin: 0 auto;    
+	max-width: 941px;
+	margin-top: 0px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	background: transparent;	
+}
+
+a {
+	color: #009240;
+}
+a:hover {
+	text-decoration: none;
+	color: red;	
+}
+a:active {
+	text-decoration: none;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	margin: 35px 0 0 0 ;
+
+}
+.logo {
+	float: left;
+	width: 208px;
+}
+.logo-title {
+	float: left;
+	padding-left: 15px;
+	width: 310px;
+/*	font-family: 'OpenSansRegular';*/
+	font: italic 1.1em 'OpenSansRegular';
+}
+.h-phone-addr {
+	float: right;	
+/*	width: 255px;*/
+}
+.h-phone-logo {
+	float: left;
+}
+.h-phone {
+	margin-left: 30px;
+	margin-top: -5px;
+	font: normal bold 1.4em 'OpenSansRegular';
+}
+.h-geo-logo {
+	float: left;
+	margin-top: 3px
+}
+.h-addr {
+	margin-left: 30px;
+	margin-top: 8px;
+    font-size: 0.83em;
+}
+.header-nav {
+	clear: both;	
+	padding: 45px 0 0 0;  
+	margin: 0 auto;
+	
+} 
+.header-nav ul {
+	margin: 0px;
+	padding: 0px;
+	 width:100%;
+}
+.header-nav ul li {
+	display: inline;
+	margin-right: 93px;	 
+}
+
+.header-nav ul li:last-child {
+	display: inline;
+	margin-right: 0px;	 
+}
+
+/* Main
+-----------------------------------------------------------------------------*/
+/*Main Page
+-----------------------------------------------------------------------------*/
+.content {
+	float: left;
+	margin-top: 35px;
+}
+.cont-top-logo {
+	margin-top: 40px;
+}
+.news-block {
+	margin-top: 40px;
+    float: left;
+}
+.logo-music {
+	margin: -34px 0 0 15px ;
+	width: 40px;
+}
+.tagline  {
+	margin: -25px 0 15px 80px;
+	color: #fff;
+	font-size: 1.2em;
+	width: 500px;
+}
+.tagline a {
+	color: #fff;
+}
+.news-link {
+	width: 107px;
+    margin: 50px 0 0 30px;
+    float: left;
+}
+.news-link a {    
+    font-size: 1.2em;
+    color: #000;
+}
+.news-link a:hover {
+	text-decoration: none;
+	color: red;	
+
+}
+.img-block {
+	margin-top: 40px;
+	float: left;
+}
+.img-block a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+}
+.t-img-blk {
+	float: left;
+}
+.img-block-text {
+	margin: -40px 0 0 20px;
+}
+.t-left-img {
+	width: 615px;
+    float: left;
+}
+.t-top-img {
+	float: right;
+	margin-right: 60px;
+}
+.t-bottom-img {
+	float: right;
+	padding-top: 25px;
+	margin-right: 60px;
+}
+.m-img-blk {
+	float:left;
+	margin-top: 25px; 
+}
+.m-top-img {
+	float:left;
+}
+.m-right-img {
+	float: right;
+	margin-left: 13px;
+}
+.m-bottom-img {
+	margin-top: 186px;
+}
+.b-img-blk {
+	float: left;
+	margin-top: 25px;
+}
+.f-img-blk {
+	float: left;
+	margin-top: 25px;
+}
+.f-bottom-img {
+	float: left;
+	margin: 0 13px 0 0px;
+}
+/*Text Page
+-----------------------------------------------------------------------------*/
+.left-menu {
+	width: 230px;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.left-menu ul { 
+	margin: 25px 0 0 0; 
+}
+.left-menu li a { 
+	text-decoration: none; 
+	margin: 0 0 0 10px;
+	line-height: 1.8;
+}
+.left-menu li a:hover { 	
+	text-decoration: underline;
+}
+.left-menu li a:before { 
+	list-style-position: outside; 
+	content: url('../images/arrow.png'); 
+	float: left; 
+	margin: 0 0 0 0;
+}
+.right-slider {
+	float: left;
+	margin: 30px 0 0 12px;
+}
+.rectangle {
+	float: right;
+	margin: -315px 59px 0 0;
+}
+.rectangle-text  a {
+	float: right;
+	margin: -300px 70px 0 0;
+	color: #fff;
+	text-decoration: none;
+	text-align: right;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.coordinates {
+	float: right;
+	margin: 0 59px 0 0;	
+}
+.coordinates a {
+	color: #009240;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	float: left;
+	margin: 55px 0 20px 0;
+}
+.yandex-counter {
+	margin-top: 20px;
+	float: left;
+}
+#footer-nav-one, #footer-nav-two {
+	margin: 14px 0 0 45px;
+	line-height: 1.5;
+	float: left;	
+}
+
+.f-phone-addr {
+	float: left;	
+	width: 190px;
+	margin: 14px 0 0 45px;
+    font-size: 0.85em;
+}
+.f-phone-logo {
+	float: left;
+}
+.f-phone {
+	margin-left: 30px;
+	margin-top: -5px;
+	font: normal lighter 1.4em 'OpenSansRegular';
+}
+.f-geo-loc {
+	float:left;
+	width: 220px;
+	margin: 14px 0 0 25px;
+}
+.f-geo-logo {
+	float: left;
+}
+.f-addr {
+	margin: 0 0 0 5px;
+	float:left;
+}
+.address {
+    float: right;
+    margin: 0 65px 0 0;
+}
+.address img {
+	padding: 0 5px 0 0;
+}
